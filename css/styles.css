@@ -488,6 +488,54 @@ figure {
     display: flex;
     margin-top: 20px;
 }
+.sign {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.172em;
+}
+.sign-mail{
+    background-color:rgba(47, 48, 58, 1);
+    color: rgba(255, 255, 255, 0.6);
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    margin-top: 20px;
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sign-mail:hover,
+.sign-mail:focus {
+    border: 1px solid var(--secend-color);
+}
+.sign-btn {
+    background-color: var(--secend-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875em;
+    display: inline-flex;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.newsletter {
+    margin-left: 79px;
+}
+.icon-send {
+    width: 24px;
+    height: 24px;
+    margin-left: 24px; 
+}
+
 /*-------End footer--------*/
 /*------main Portfolio------*/
 .btn-list {
