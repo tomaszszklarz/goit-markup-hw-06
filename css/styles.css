@@ -493,6 +493,7 @@ figure {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.172em;
+    text-transform: uppercase;
 }
 .sign-mail{
     background-color:rgba(47, 48, 58, 1);
@@ -526,6 +527,7 @@ figure {
     align-items: center;
     justify-content: center;
     margin-left: 10px;
+    cursor: pointer;
 }
 .newsletter {
     margin-left: 79px;
@@ -689,5 +691,14 @@ figure {
     transform: translateY(100%);
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+.form-head {
+    margin-top: 40px;
+    text-align: center;
+}
+.form .form-label {
+    display: flex;
+    flex-direction: column;
+    
 }
 /*---------bakdrop end---------*/

@@ -379,7 +379,7 @@
                         <input class="sign-mail" type="email" name="email" placeholder="E-mail">
                             <button class="sign-btn" type="submit">Zapisz się 
                                 <svg class="icon-send">
-                                <use href="./images/icons2.svg#icon-icon-send"></use>
+                                <use href="./images/iconss.svg#icon-icon-send"></use>
                             </svg>
                             </button>
                             
@@ -391,7 +391,28 @@
     </footer>
     <div class="backdrop is-hidden "data-modal>
         <div class="modal">
-            <button type="button" class="close-btn"data-modal-close>X</button>
+            <button type="button" class="close-btn"data-modal-close>X</button>               
+                <form class="form">
+                    <p class="form-head">
+                        Zostaw swoje dane w formularzu poniżej
+                    </p>
+                    <label class="form-label">
+                        Imie
+                        <input type="text" name="name">
+                    </label>
+                    <label class="form-label">
+                        Telefon
+                        <input type="tel" name="phone_number">
+                    </label>
+                    <label class="form-label">
+                        Email
+                        <input type="email" name="email">
+                    </label>
+                    <label class="form-label">
+                        Komentarz
+                        <textarea name="Ccoment"rows="5" placeholder="Wprowadz tekst"></textarea>
+                    </label>
+                </form>     
         </div>
     </div>
     <script src="./js/modal.js"></script>
