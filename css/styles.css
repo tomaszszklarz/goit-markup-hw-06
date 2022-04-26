@@ -786,7 +786,7 @@ figure {
 }
 
 .policy-check::before {
-    display: inline-block;
+    display: inline-flex;
     content: "";
     width: 16px;
     height: 16px;
@@ -794,14 +794,14 @@ figure {
     border-radius: 2px;
     margin-right: 9px;
     transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .policy-checkbox:checked +.policy-check::before {
     background-image: url(../images/icon-check.svg);
     background-size: contain;
-    border: var(--secend-color);
+    border: 2px solid var(--secend-color);
     border-radius: 2px;
-    
+    background-color: var(--secend-color);
 }
 .visually-hidden {
     position: absolute !important;
