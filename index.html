@@ -397,21 +397,47 @@
                         Zostaw swoje dane w formularzu poniżej
                     </p>
                     <label class="form-label">
-                        Imie
-                        <input type="text" name="name">
+                       Imie
+                       <span class="form-label-item">
+                            <input class="form-input" type="text" name="name">
+                            <svg class="form-input-image">
+                                <use href="./images/iconss.svg#icon-person-black"></use>
+                            </svg>
+                       </span> 
                     </label>
                     <label class="form-label">
                         Telefon
-                        <input type="tel" name="phone_number">
+                        <span class="form-label-item">
+                            <input class="form-input" type="tel" name="phone_number">
+                            <svg class="form-input-image">
+                                <use href="./images/iconss.svg#icon-phone-black"></use>
+                            </svg>
+                        </span>
+                        
                     </label>
                     <label class="form-label">
                         Email
-                        <input type="email" name="email">
+                        <span class="form-label-item">
+                            <input class="form-input" type="email" name="email">
+                            <svg class="form-input-image">
+                                <use href="./images/iconss.svg#icon-email-black"></use>
+                            </svg>
+                        </span>
+                        
                     </label>
                     <label class="form-label">
                         Komentarz
-                        <textarea name="Ccoment"rows="5" placeholder="Wprowadz tekst"></textarea>
+                        <textarea class="coment" name="Coment"rows="7" placeholder="Wprowadz tekst"></textarea>
                     </label>
+                        <div class="policy">
+                            <form>
+                                <input class="policy-checkbox visually-hidden" id="user-policy" type="checkbox" name="policy" value="accept-policy"/>
+                                <label class="policy-check" for="user-policy">Oświadczam iż akceptuje <a class="policy-link"
+                                        href="#regulamin">Regulamin</a> i <a class="policy-link" href="#polityka">Politykę Prywatności</a></label>
+                            </form>
+                            
+                        </div>
+                    <button type="submit" class="form-btn"> Wyślij</button>
                 </form>     
         </div>
     </div>

@@ -692,13 +692,124 @@ figure {
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
+.form {
+    justify-items: center;
+}
 .form-head {
     margin-top: 40px;
     text-align: center;
+    font-size: 20px;
+    font-weight: 700;
 }
 .form .form-label {
     display: flex;
     flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+.form-label {
+    font-size: 12px;
+    color:rgba(117, 117, 117, 1);
+    margin-top: 10px;
+}
+
+.coment {
+    resize: none;
+    padding: 12px 16px;
+    font-size: 12px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+.form-btn {
+    background-color: var(--secend-color);
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 164px;
+}
+.form-input {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    padding-left: 45px;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+.form-input:hover,
+.form-input:focus,
+.coment:hover,
+.coment:focus {
+    border: 1px solid var(--secend-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none; 
+}
+.form-label-item:hover,
+.form-label-item:focus{
+    fill: var(--secend-color);
+}
+.form-label-item {
+    position: relative;
+    display: block;
+    fill: #212121;
+}
+
+.form-input-image {
+    position: absolute;
+    top: 11px;
+    left: 15px;
+    width: 18px;
+    height: 18px; 
+}
+.policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.714em;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #757575;
     
+}
+
+.policy-link {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.policy-check::before {
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-right: 9px;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+.policy-checkbox:checked +.policy-check::before {
+    background-image: url(../images/icon-check.svg);
+    background-size: contain;
+    border: var(--secend-color);
+    border-radius: 2px;
+    
+}
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
 }
 /*---------bakdrop end---------*/
