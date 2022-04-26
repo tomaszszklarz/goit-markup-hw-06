@@ -212,6 +212,7 @@ figure {
     background-color: var(--secend-color);
     color: white;
     margin-top: 30px;
+    border: none;
     box-shadow: rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     width: 200px;
@@ -508,6 +509,7 @@ figure {
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 16px;
 }
 .sign-mail:hover,
 .sign-mail:focus {
@@ -529,6 +531,7 @@ figure {
     justify-content: center;
     margin-left: 10px;
     cursor: pointer;
+    
 }
 .newsletter {
     margin-left: 79px;
